@@ -1,0 +1,2616 @@
+diff --git a/.vscode/configurationCache.log b/.vscode/configurationCache.log
+new file mode 100644
+index 0000000..65deda0
+--- /dev/null
++++ b/.vscode/configurationCache.log
+@@ -0,0 +1 @@
++{"buildTargets":["clean","fs.img","kernel/bio.o","kernel/console.o","kernel/exec.o","kernel/file.o","kernel/fs.o","kernel/kalloc.o","kernel/kernel","kernel/log.o","kernel/main.o","kernel/pipe.o","kernel/plic.o","kernel/printf.o","kernel/proc.o","kernel/sleeplock.o","kernel/spinlock.o","kernel/start.o","kernel/string.o","kernel/syscall.o","kernel/sysfile.o","kernel/sysproc.o","kernel/trap.o","kernel/uart.o","kernel/virtio_disk.o","kernel/vm.o","mkfs/mkfs","qemu","qemu-gdb","tags","user/_forktest","user/cat.o","user/cvtest.o","user/echo.o","user/forktest.o","user/grep.o","user/grind.o","user/init.o","user/initcode","user/initcode.o","user/kill.o","user/ln.o","user/ls.o","user/mkdir.o","user/printf.o","user/rm.o","user/sh.o","user/stressfs.o","user/threads.o","user/ulib.o","user/umalloc.o","user/usertests.o","user/usys.S","user/usys.o","user/wc.o","user/zombie.o"],"launchTargets":["Makefile | /home/piyal/CSE314_Offline_5/xv6-riscv/user>initcode.out()","Makefile | /home/piyal/CSE314_Offline_5/xv6-riscv/kernel>kernel()"],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":["/home/piyal/CSE314_Offline_5/xv6-riscv","/home/piyal/CSE314_Offline_5/xv6-riscv/kernel"],"compilerArgs":["-Wall","-Werror","-O","-fno-omit-frame-pointer","-ggdb","-gdwarf-2","-MD","-mcmodel=medany","-ffreestanding","-fno-common","-nostdlib","-mno-relax","-fno-stack-protector","-fno-pie","-no-pie","-c","-o","kernel/virtio_disk.o","kernel/virtio_disk.c"]},"fileIndex":[["/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/start.c",{"uri":{"$mid":1,"fsPath":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/start.c","external":"file:///home/piyal/CSE314_Offline_5/xv6-riscv/kernel/start.c","path":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/start.c","scheme":"file"},"configuration":{"defines":[],"includePath":["/home/piyal/CSE314_Offline_5/xv6-riscv"],"forcedInclude":[],"compilerPath":"/usr/bin/riscv64-linux-gnu-gcc","compilerArgs":["-Wall","-Werror","-O","-fno-omit-frame-pointer","-ggdb","-gdwarf-2","-MD","-mcmodel=medany","-ffreestanding","-fno-common","-nostdlib","-mno-relax","-fno-stack-protector","-fno-pie","-no-pie","-c","-o","kernel/start.o","kernel/start.c"],"windowsSdkVersion":""},"compileCommand":{"command":"riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie   -c -o kernel/start.o kernel/start.c","directory":"/home/piyal/CSE314_Offline_5/xv6-riscv","file":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/start.c"}}],["/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/console.c",{"uri":{"$mid":1,"fsPath":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/console.c","external":"file:///home/piyal/CSE314_Offline_5/xv6-riscv/kernel/console.c","path":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/console.c","scheme":"file"},"configuration":{"defines":[],"includePath":["/home/piyal/CSE314_Offline_5/xv6-riscv"],"forcedInclude":[],"compilerPath":"/usr/bin/riscv64-linux-gnu-gcc","compilerArgs":["-Wall","-Werror","-O","-fno-omit-frame-pointer","-ggdb","-gdwarf-2","-MD","-mcmodel=medany","-ffreestanding","-fno-common","-nostdlib","-mno-relax","-fno-stack-protector","-fno-pie","-no-pie","-c","-o","kernel/console.o","kernel/console.c"],"windowsSdkVersion":""},"compileCommand":{"command":"riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie   -c -o kernel/console.o kernel/console.c","directory":"/home/piyal/CSE314_Offline_5/xv6-riscv","file":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/console.c"}}],["/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/printf.c",{"uri":{"$mid":1,"fsPath":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/printf.c","external":"file:///home/piyal/CSE314_Offline_5/xv6-riscv/kernel/printf.c","path":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/printf.c","scheme":"file"},"configuration":{"defines":[],"includePath":["/home/piyal/CSE314_Offline_5/xv6-riscv"],"forcedInclude":[],"compilerPath":"/usr/bin/riscv64-linux-gnu-gcc","compilerArgs":["-Wall","-Werror","-O","-fno-omit-frame-pointer","-ggdb","-gdwarf-2","-MD","-mcmodel=medany","-ffreestanding","-fno-common","-nostdlib","-mno-relax","-fno-stack-protector","-fno-pie","-no-pie","-c","-o","kernel/printf.o","kernel/printf.c"],"windowsSdkVersion":""},"compileCommand":{"command":"riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie   -c -o kernel/printf.o kernel/printf.c","directory":"/home/piyal/CSE314_Offline_5/xv6-riscv","file":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/printf.c"}}],["/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/uart.c",{"uri":{"$mid":1,"fsPath":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/uart.c","external":"file:///home/piyal/CSE314_Offline_5/xv6-riscv/kernel/uart.c","path":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/uart.c","scheme":"file"},"configuration":{"defines":[],"includePath":["/home/piyal/CSE314_Offline_5/xv6-riscv"],"forcedInclude":[],"compilerPath":"/usr/bin/riscv64-linux-gnu-gcc","compilerArgs":["-Wall","-Werror","-O","-fno-omit-frame-pointer","-ggdb","-gdwarf-2","-MD","-mcmodel=medany","-ffreestanding","-fno-common","-nostdlib","-mno-relax","-fno-stack-protector","-fno-pie","-no-pie","-c","-o","kernel/uart.o","kernel/uart.c"],"windowsSdkVersion":""},"compileCommand":{"command":"riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie   -c -o kernel/uart.o kernel/uart.c","directory":"/home/piyal/CSE314_Offline_5/xv6-riscv","file":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/uart.c"}}],["/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/kalloc.c",{"uri":{"$mid":1,"fsPath":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/kalloc.c","external":"file:///home/piyal/CSE314_Offline_5/xv6-riscv/kernel/kalloc.c","path":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/kalloc.c","scheme":"file"},"configuration":{"defines":[],"includePath":["/home/piyal/CSE314_Offline_5/xv6-riscv"],"forcedInclude":[],"compilerPath":"/usr/bin/riscv64-linux-gnu-gcc","compilerArgs":["-Wall","-Werror","-O","-fno-omit-frame-pointer","-ggdb","-gdwarf-2","-MD","-mcmodel=medany","-ffreestanding","-fno-common","-nostdlib","-mno-relax","-fno-stack-protector","-fno-pie","-no-pie","-c","-o","kernel/kalloc.o","kernel/kalloc.c"],"windowsSdkVersion":""},"compileCommand":{"command":"riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie   -c -o kernel/kalloc.o kernel/kalloc.c","directory":"/home/piyal/CSE314_Offline_5/xv6-riscv","file":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/kalloc.c"}}],["/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/spinlock.c",{"uri":{"$mid":1,"fsPath":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/spinlock.c","external":"file:///home/piyal/CSE314_Offline_5/xv6-riscv/kernel/spinlock.c","path":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/spinlock.c","scheme":"file"},"configuration":{"defines":[],"includePath":["/home/piyal/CSE314_Offline_5/xv6-riscv"],"forcedInclude":[],"compilerPath":"/usr/bin/riscv64-linux-gnu-gcc","compilerArgs":["-Wall","-Werror","-O","-fno-omit-frame-pointer","-ggdb","-gdwarf-2","-MD","-mcmodel=medany","-ffreestanding","-fno-common","-nostdlib","-mno-relax","-fno-stack-protector","-fno-pie","-no-pie","-c","-o","kernel/spinlock.o","kernel/spinlock.c"],"windowsSdkVersion":""},"compileCommand":{"command":"riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie   -c -o kernel/spinlock.o kernel/spinlock.c","directory":"/home/piyal/CSE314_Offline_5/xv6-riscv","file":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/spinlock.c"}}],["/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/string.c",{"uri":{"$mid":1,"fsPath":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/string.c","path":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/string.c","scheme":"file"},"configuration":{"defines":[],"includePath":["/home/piyal/CSE314_Offline_5/xv6-riscv"],"forcedInclude":[],"compilerPath":"/usr/bin/riscv64-linux-gnu-gcc","compilerArgs":["-Wall","-Werror","-O","-fno-omit-frame-pointer","-ggdb","-gdwarf-2","-MD","-mcmodel=medany","-ffreestanding","-fno-common","-nostdlib","-mno-relax","-fno-stack-protector","-fno-pie","-no-pie","-c","-o","kernel/string.o","kernel/string.c"],"windowsSdkVersion":""},"compileCommand":{"command":"riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie   -c -o kernel/string.o kernel/string.c","directory":"/home/piyal/CSE314_Offline_5/xv6-riscv","file":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/string.c"}}],["/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/main.c",{"uri":{"$mid":1,"fsPath":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/main.c","external":"file:///home/piyal/CSE314_Offline_5/xv6-riscv/kernel/main.c","path":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/main.c","scheme":"file"},"configuration":{"defines":[],"includePath":["/home/piyal/CSE314_Offline_5/xv6-riscv"],"forcedInclude":[],"compilerPath":"/usr/bin/riscv64-linux-gnu-gcc","compilerArgs":["-Wall","-Werror","-O","-fno-omit-frame-pointer","-ggdb","-gdwarf-2","-MD","-mcmodel=medany","-ffreestanding","-fno-common","-nostdlib","-mno-relax","-fno-stack-protector","-fno-pie","-no-pie","-c","-o","kernel/main.o","kernel/main.c"],"windowsSdkVersion":""},"compileCommand":{"command":"riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie   -c -o kernel/main.o kernel/main.c","directory":"/home/piyal/CSE314_Offline_5/xv6-riscv","file":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/main.c"}}],["/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/vm.c",{"uri":{"$mid":1,"fsPath":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/vm.c","external":"file:///home/piyal/CSE314_Offline_5/xv6-riscv/kernel/vm.c","path":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/vm.c","scheme":"file"},"configuration":{"defines":[],"includePath":["/home/piyal/CSE314_Offline_5/xv6-riscv"],"forcedInclude":[],"compilerPath":"/usr/bin/riscv64-linux-gnu-gcc","compilerArgs":["-Wall","-Werror","-O","-fno-omit-frame-pointer","-ggdb","-gdwarf-2","-MD","-mcmodel=medany","-ffreestanding","-fno-common","-nostdlib","-mno-relax","-fno-stack-protector","-fno-pie","-no-pie","-c","-o","kernel/vm.o","kernel/vm.c"],"windowsSdkVersion":""},"compileCommand":{"command":"riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie   -c -o kernel/vm.o kernel/vm.c","directory":"/home/piyal/CSE314_Offline_5/xv6-riscv","file":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/vm.c"}}],["/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/proc.c",{"uri":{"$mid":1,"fsPath":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/proc.c","external":"file:///home/piyal/CSE314_Offline_5/xv6-riscv/kernel/proc.c","path":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/proc.c","scheme":"file"},"configuration":{"defines":[],"includePath":["/home/piyal/CSE314_Offline_5/xv6-riscv"],"forcedInclude":[],"compilerPath":"/usr/bin/riscv64-linux-gnu-gcc","compilerArgs":["-Wall","-Werror","-O","-fno-omit-frame-pointer","-ggdb","-gdwarf-2","-MD","-mcmodel=medany","-ffreestanding","-fno-common","-nostdlib","-mno-relax","-fno-stack-protector","-fno-pie","-no-pie","-c","-o","kernel/proc.o","kernel/proc.c"],"windowsSdkVersion":""},"compileCommand":{"command":"riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie   -c -o kernel/proc.o kernel/proc.c","directory":"/home/piyal/CSE314_Offline_5/xv6-riscv","file":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/proc.c"}}],["/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/trap.c",{"uri":{"$mid":1,"fsPath":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/trap.c","external":"file:///home/piyal/CSE314_Offline_5/xv6-riscv/kernel/trap.c","path":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/trap.c","scheme":"file"},"configuration":{"defines":[],"includePath":["/home/piyal/CSE314_Offline_5/xv6-riscv"],"forcedInclude":[],"compilerPath":"/usr/bin/riscv64-linux-gnu-gcc","compilerArgs":["-Wall","-Werror","-O","-fno-omit-frame-pointer","-ggdb","-gdwarf-2","-MD","-mcmodel=medany","-ffreestanding","-fno-common","-nostdlib","-mno-relax","-fno-stack-protector","-fno-pie","-no-pie","-c","-o","kernel/trap.o","kernel/trap.c"],"windowsSdkVersion":""},"compileCommand":{"command":"riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie   -c -o kernel/trap.o kernel/trap.c","directory":"/home/piyal/CSE314_Offline_5/xv6-riscv","file":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/trap.c"}}],["/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/syscall.c",{"uri":{"$mid":1,"fsPath":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/syscall.c","external":"file:///home/piyal/CSE314_Offline_5/xv6-riscv/kernel/syscall.c","path":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/syscall.c","scheme":"file"},"configuration":{"defines":[],"includePath":["/home/piyal/CSE314_Offline_5/xv6-riscv"],"forcedInclude":[],"compilerPath":"/usr/bin/riscv64-linux-gnu-gcc","compilerArgs":["-Wall","-Werror","-O","-fno-omit-frame-pointer","-ggdb","-gdwarf-2","-MD","-mcmodel=medany","-ffreestanding","-fno-common","-nostdlib","-mno-relax","-fno-stack-protector","-fno-pie","-no-pie","-c","-o","kernel/syscall.o","kernel/syscall.c"],"windowsSdkVersion":""},"compileCommand":{"command":"riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie   -c -o kernel/syscall.o kernel/syscall.c","directory":"/home/piyal/CSE314_Offline_5/xv6-riscv","file":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/syscall.c"}}],["/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/sysproc.c",{"uri":{"$mid":1,"fsPath":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/sysproc.c","external":"file:///home/piyal/CSE314_Offline_5/xv6-riscv/kernel/sysproc.c","path":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/sysproc.c","scheme":"file"},"configuration":{"defines":[],"includePath":["/home/piyal/CSE314_Offline_5/xv6-riscv"],"forcedInclude":[],"compilerPath":"/usr/bin/riscv64-linux-gnu-gcc","compilerArgs":["-Wall","-Werror","-O","-fno-omit-frame-pointer","-ggdb","-gdwarf-2","-MD","-mcmodel=medany","-ffreestanding","-fno-common","-nostdlib","-mno-relax","-fno-stack-protector","-fno-pie","-no-pie","-c","-o","kernel/sysproc.o","kernel/sysproc.c"],"windowsSdkVersion":""},"compileCommand":{"command":"riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie   -c -o kernel/sysproc.o kernel/sysproc.c","directory":"/home/piyal/CSE314_Offline_5/xv6-riscv","file":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/sysproc.c"}}],["/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/bio.c",{"uri":{"$mid":1,"fsPath":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/bio.c","external":"file:///home/piyal/CSE314_Offline_5/xv6-riscv/kernel/bio.c","path":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/bio.c","scheme":"file"},"configuration":{"defines":[],"includePath":["/home/piyal/CSE314_Offline_5/xv6-riscv"],"forcedInclude":[],"compilerPath":"/usr/bin/riscv64-linux-gnu-gcc","compilerArgs":["-Wall","-Werror","-O","-fno-omit-frame-pointer","-ggdb","-gdwarf-2","-MD","-mcmodel=medany","-ffreestanding","-fno-common","-nostdlib","-mno-relax","-fno-stack-protector","-fno-pie","-no-pie","-c","-o","kernel/bio.o","kernel/bio.c"],"windowsSdkVersion":""},"compileCommand":{"command":"riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie   -c -o kernel/bio.o kernel/bio.c","directory":"/home/piyal/CSE314_Offline_5/xv6-riscv","file":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/bio.c"}}],["/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/fs.c",{"uri":{"$mid":1,"fsPath":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/fs.c","external":"file:///home/piyal/CSE314_Offline_5/xv6-riscv/kernel/fs.c","path":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/fs.c","scheme":"file"},"configuration":{"defines":[],"includePath":["/home/piyal/CSE314_Offline_5/xv6-riscv"],"forcedInclude":[],"compilerPath":"/usr/bin/riscv64-linux-gnu-gcc","compilerArgs":["-Wall","-Werror","-O","-fno-omit-frame-pointer","-ggdb","-gdwarf-2","-MD","-mcmodel=medany","-ffreestanding","-fno-common","-nostdlib","-mno-relax","-fno-stack-protector","-fno-pie","-no-pie","-c","-o","kernel/fs.o","kernel/fs.c"],"windowsSdkVersion":""},"compileCommand":{"command":"riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie   -c -o kernel/fs.o kernel/fs.c","directory":"/home/piyal/CSE314_Offline_5/xv6-riscv","file":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/fs.c"}}],["/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/log.c",{"uri":{"$mid":1,"fsPath":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/log.c","external":"file:///home/piyal/CSE314_Offline_5/xv6-riscv/kernel/log.c","path":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/log.c","scheme":"file"},"configuration":{"defines":[],"includePath":["/home/piyal/CSE314_Offline_5/xv6-riscv"],"forcedInclude":[],"compilerPath":"/usr/bin/riscv64-linux-gnu-gcc","compilerArgs":["-Wall","-Werror","-O","-fno-omit-frame-pointer","-ggdb","-gdwarf-2","-MD","-mcmodel=medany","-ffreestanding","-fno-common","-nostdlib","-mno-relax","-fno-stack-protector","-fno-pie","-no-pie","-c","-o","kernel/log.o","kernel/log.c"],"windowsSdkVersion":""},"compileCommand":{"command":"riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie   -c -o kernel/log.o kernel/log.c","directory":"/home/piyal/CSE314_Offline_5/xv6-riscv","file":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/log.c"}}],["/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/sleeplock.c",{"uri":{"$mid":1,"fsPath":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/sleeplock.c","external":"file:///home/piyal/CSE314_Offline_5/xv6-riscv/kernel/sleeplock.c","path":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/sleeplock.c","scheme":"file"},"configuration":{"defines":[],"includePath":["/home/piyal/CSE314_Offline_5/xv6-riscv"],"forcedInclude":[],"compilerPath":"/usr/bin/riscv64-linux-gnu-gcc","compilerArgs":["-Wall","-Werror","-O","-fno-omit-frame-pointer","-ggdb","-gdwarf-2","-MD","-mcmodel=medany","-ffreestanding","-fno-common","-nostdlib","-mno-relax","-fno-stack-protector","-fno-pie","-no-pie","-c","-o","kernel/sleeplock.o","kernel/sleeplock.c"],"windowsSdkVersion":""},"compileCommand":{"command":"riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie   -c -o kernel/sleeplock.o kernel/sleeplock.c","directory":"/home/piyal/CSE314_Offline_5/xv6-riscv","file":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/sleeplock.c"}}],["/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/file.c",{"uri":{"$mid":1,"fsPath":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/file.c","external":"file:///home/piyal/CSE314_Offline_5/xv6-riscv/kernel/file.c","path":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/file.c","scheme":"file"},"configuration":{"defines":[],"includePath":["/home/piyal/CSE314_Offline_5/xv6-riscv"],"forcedInclude":[],"compilerPath":"/usr/bin/riscv64-linux-gnu-gcc","compilerArgs":["-Wall","-Werror","-O","-fno-omit-frame-pointer","-ggdb","-gdwarf-2","-MD","-mcmodel=medany","-ffreestanding","-fno-common","-nostdlib","-mno-relax","-fno-stack-protector","-fno-pie","-no-pie","-c","-o","kernel/file.o","kernel/file.c"],"windowsSdkVersion":""},"compileCommand":{"command":"riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie   -c -o kernel/file.o kernel/file.c","directory":"/home/piyal/CSE314_Offline_5/xv6-riscv","file":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/file.c"}}],["/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/pipe.c",{"uri":{"$mid":1,"fsPath":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/pipe.c","external":"file:///home/piyal/CSE314_Offline_5/xv6-riscv/kernel/pipe.c","path":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/pipe.c","scheme":"file"},"configuration":{"defines":[],"includePath":["/home/piyal/CSE314_Offline_5/xv6-riscv"],"forcedInclude":[],"compilerPath":"/usr/bin/riscv64-linux-gnu-gcc","compilerArgs":["-Wall","-Werror","-O","-fno-omit-frame-pointer","-ggdb","-gdwarf-2","-MD","-mcmodel=medany","-ffreestanding","-fno-common","-nostdlib","-mno-relax","-fno-stack-protector","-fno-pie","-no-pie","-c","-o","kernel/pipe.o","kernel/pipe.c"],"windowsSdkVersion":""},"compileCommand":{"command":"riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie   -c -o kernel/pipe.o kernel/pipe.c","directory":"/home/piyal/CSE314_Offline_5/xv6-riscv","file":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/pipe.c"}}],["/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/exec.c",{"uri":{"$mid":1,"fsPath":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/exec.c","external":"file:///home/piyal/CSE314_Offline_5/xv6-riscv/kernel/exec.c","path":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/exec.c","scheme":"file"},"configuration":{"defines":[],"includePath":["/home/piyal/CSE314_Offline_5/xv6-riscv"],"forcedInclude":[],"compilerPath":"/usr/bin/riscv64-linux-gnu-gcc","compilerArgs":["-Wall","-Werror","-O","-fno-omit-frame-pointer","-ggdb","-gdwarf-2","-MD","-mcmodel=medany","-ffreestanding","-fno-common","-nostdlib","-mno-relax","-fno-stack-protector","-fno-pie","-no-pie","-c","-o","kernel/exec.o","kernel/exec.c"],"windowsSdkVersion":""},"compileCommand":{"command":"riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie   -c -o kernel/exec.o kernel/exec.c","directory":"/home/piyal/CSE314_Offline_5/xv6-riscv","file":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/exec.c"}}],["/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/sysfile.c",{"uri":{"$mid":1,"fsPath":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/sysfile.c","external":"file:///home/piyal/CSE314_Offline_5/xv6-riscv/kernel/sysfile.c","path":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/sysfile.c","scheme":"file"},"configuration":{"defines":[],"includePath":["/home/piyal/CSE314_Offline_5/xv6-riscv"],"forcedInclude":[],"compilerPath":"/usr/bin/riscv64-linux-gnu-gcc","compilerArgs":["-Wall","-Werror","-O","-fno-omit-frame-pointer","-ggdb","-gdwarf-2","-MD","-mcmodel=medany","-ffreestanding","-fno-common","-nostdlib","-mno-relax","-fno-stack-protector","-fno-pie","-no-pie","-c","-o","kernel/sysfile.o","kernel/sysfile.c"],"windowsSdkVersion":""},"compileCommand":{"command":"riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie   -c -o kernel/sysfile.o kernel/sysfile.c","directory":"/home/piyal/CSE314_Offline_5/xv6-riscv","file":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/sysfile.c"}}],["/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/plic.c",{"uri":{"$mid":1,"fsPath":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/plic.c","external":"file:///home/piyal/CSE314_Offline_5/xv6-riscv/kernel/plic.c","path":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/plic.c","scheme":"file"},"configuration":{"defines":[],"includePath":["/home/piyal/CSE314_Offline_5/xv6-riscv"],"forcedInclude":[],"compilerPath":"/usr/bin/riscv64-linux-gnu-gcc","compilerArgs":["-Wall","-Werror","-O","-fno-omit-frame-pointer","-ggdb","-gdwarf-2","-MD","-mcmodel=medany","-ffreestanding","-fno-common","-nostdlib","-mno-relax","-fno-stack-protector","-fno-pie","-no-pie","-c","-o","kernel/plic.o","kernel/plic.c"],"windowsSdkVersion":""},"compileCommand":{"command":"riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie   -c -o kernel/plic.o kernel/plic.c","directory":"/home/piyal/CSE314_Offline_5/xv6-riscv","file":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/plic.c"}}],["/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/virtio_disk.c",{"uri":{"$mid":1,"fsPath":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/virtio_disk.c","external":"file:///home/piyal/CSE314_Offline_5/xv6-riscv/kernel/virtio_disk.c","path":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/virtio_disk.c","scheme":"file"},"configuration":{"defines":[],"includePath":["/home/piyal/CSE314_Offline_5/xv6-riscv"],"forcedInclude":[],"compilerPath":"/usr/bin/riscv64-linux-gnu-gcc","compilerArgs":["-Wall","-Werror","-O","-fno-omit-frame-pointer","-ggdb","-gdwarf-2","-MD","-mcmodel=medany","-ffreestanding","-fno-common","-nostdlib","-mno-relax","-fno-stack-protector","-fno-pie","-no-pie","-c","-o","kernel/virtio_disk.o","kernel/virtio_disk.c"],"windowsSdkVersion":""},"compileCommand":{"command":"riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie   -c -o kernel/virtio_disk.o kernel/virtio_disk.c","directory":"/home/piyal/CSE314_Offline_5/xv6-riscv","file":"/home/piyal/CSE314_Offline_5/xv6-riscv/kernel/virtio_disk.c"}}]]}}
+\ No newline at end of file
+diff --git a/.vscode/dryrun.log b/.vscode/dryrun.log
+new file mode 100644
+index 0000000..f889d2c
+--- /dev/null
++++ b/.vscode/dryrun.log
+@@ -0,0 +1,6 @@
++make --dry-run --keep-going --print-directory
++make: Entering directory '/home/piyal/CSE314_Offline_5/xv6-riscv'
++ 
++make: 'kernel/kernel' is up to date.
++make: Leaving directory '/home/piyal/CSE314_Offline_5/xv6-riscv'
++ 
+diff --git a/.vscode/settings.json b/.vscode/settings.json
+new file mode 100644
+index 0000000..65e1ec0
+--- /dev/null
++++ b/.vscode/settings.json
+@@ -0,0 +1,3 @@
++{
++    "makefile.extensionOutputFolder": "./.vscode"
++}
+\ No newline at end of file
+diff --git a/.vscode/targets.log b/.vscode/targets.log
+new file mode 100644
+index 0000000..72a008e
+--- /dev/null
++++ b/.vscode/targets.log
+@@ -0,0 +1,1559 @@
++make all --print-data-base --no-builtin-variables --no-builtin-rules --question
++make: *** No rule to make target 'all'.  Stop.
++
++# GNU Make 4.3
++# Built for x86_64-pc-linux-gnu
++# Copyright (C) 1988-2020 Free Software Foundation, Inc.
++# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
++# This is free software: you are free to change and redistribute it.
++# There is NO WARRANTY, to the extent permitted by law.
++
++# Make data base, printed on Sun Aug 27 17:48:41 2023
++
++# Variables
++
++# environment
++GDK_BACKEND = x11
++# makefile (from 'Makefile', line 54)
++AS = $(TOOLPREFIX)gas
++# environment
++LC_ALL = C
++# environment
++GNOME_SHELL_SESSION_MODE = ubuntu
++# environment
++SSH_AGENT_LAUNCHER = gnome-keyring
++# makefile (from 'Makefile', line 154)
++QEMUGDB = $(shell if $(QEMU) -help | grep -q '^-gdb'; then echo "-gdb tcp::$(GDBPORT)"; else echo "-s -p $(GDBPORT)"; fi)
++# makefile (from 'Makefile', line 90)
++ULIB = $U/ulib.o $U/usys.o $U/printf.o $U/umalloc.o
++# environment
++GJS_DEBUG_OUTPUT = stderr
++# makefile (from 'Makefile', line 152)
++GDBPORT = $(shell expr `id -u` % 5000 + 25000)
++# environment
++LC_NAME = bn_BD
++# environment
++LC_NUMERIC = bn_BD
++# environment
++VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
++# environment
++VSCODE_CWD = /home/piyal
++# environment
++LC_ADDRESS = bn_BD
++# default
++MAKE_COMMAND := make
++# environment
++QT_ACCESSIBILITY = 1
++# automatic
++@D = $(patsubst %/,%,$(dir $@))
++# makefile (from 'Makefile', line 1)
++K = kernel
++# environment
++VSCODE_HANDLES_UNCAUGHT_ERRORS = true
++# default
++.VARIABLES := 
++# environment
++PWD = /home/piyal/CSE314_Offline_5/xv6-riscv
++# automatic
++%D = $(patsubst %/,%,$(dir $%))
++# environment
++XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
++# automatic
++^D = $(patsubst %/,%,$(dir $^))
++# automatic
++%F = $(notdir $%)
++# environment
++VSCODE_CODE_CACHE_PATH = /home/piyal/.config/Code/CachedData/74f6148eb9ea00507ec113ec51c489d6ffb4b771
++# environment
++LANG = C
++# environment
++XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.CYPGA2
++# default
++.LOADED := 
++# default
++.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
++# makefile
++MAKEFLAGS = pqrR
++# makefile
++CURDIR := /home/piyal/CSE314_Offline_5/xv6-riscv
++# environment
++APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
++# environment
++LESSOPEN = | /usr/bin/lesspipe %s
++# automatic
++*D = $(patsubst %/,%,$(dir $*))
++# environment
++MFLAGS = -pqrR
++# environment
++SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
++# default
++.SHELLFLAGS := -c
++# environment
++WAYLAND_DISPLAY = wayland-0
++# environment
++XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
++# automatic
+++D = $(patsubst %/,%,$(dir $+))
++# environment
++XDG_SESSION_DESKTOP = ubuntu
++# makefile (from 'user/zombie.d', line 1)
++MAKEFILE_LIST := Makefile kernel/bio.d kernel/console.d kernel/exec.d kernel/file.d kernel/fs.d kernel/kalloc.d kernel/log.d kernel/main.d kernel/pipe.d kernel/plic.d kernel/printf.d kernel/proc.d kernel/sleeplock.d kernel/spinlock.d kernel/start.d kernel/string.d kernel/syscall.d kernel/sysfile.d kernel/sysproc.d kernel/trap.d kernel/uart.d kernel/virtio_disk.d kernel/vm.d user/cat.d user/cvtest.d user/echo.d user/forktest.d user/grep.d user/grind.d user/init.d user/initcode.d user/kill.d user/ln.d user/ls.d user/mkdir.d user/printf.d user/rm.d user/sh.d user/stressfs.d user/threads.d user/ulib.d user/umalloc.d user/usertests.d user/usys.d user/wc.d user/zombie.d
++# automatic
++@F = $(notdir $@)
++# environment
++VSCODE_PID = 10516
++# environment
++XDG_SESSION_TYPE = wayland
++# automatic
++?D = $(patsubst %/,%,$(dir $?))
++# environment
++SESSION_MANAGER = local/piyal-ROG-Strix-G531GT-G531GT:@/tmp/.ICE-unix/1687,unix/piyal-ROG-Strix-G531GT-G531GT:/tmp/.ICE-unix/1687
++# automatic
++*F = $(notdir $*)
++# environment
++CHROME_DESKTOP = code-url-handler.desktop
++# environment
++DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
++# automatic
++<D = $(patsubst %/,%,$(dir $<))
++# environment
++VSCODE_NLS_CONFIG = {"locale":"en-us","osLocale":"en-us","availableLanguages":{},"_languagePackSupport":true}
++# default
++MAKE_HOST := x86_64-pc-linux-gnu
++# makefile (from 'Makefile', line 4)
++OBJS = $K/entry.o $K/start.o $K/console.o $K/printf.o $K/uart.o $K/kalloc.o $K/spinlock.o $K/string.o $K/main.o $K/vm.o $K/proc.o $K/swtch.o $K/trampoline.o $K/trap.o $K/syscall.o $K/sysproc.o $K/bio.o $K/fs.o $K/log.o $K/sleeplock.o $K/file.o $K/pipe.o $K/exec.o $K/sysfile.o $K/kernelvec.o $K/plic.o $K/virtio_disk.o
++# environment
++GNOME_DESKTOP_SESSION_ID = this-is-deprecated
++# makefile (from 'Makefile', line 2)
++ 
++U = user
++# makefile
++SHELL = /bin/sh
++# default
++MAKECMDGOALS := all
++# environment
++XMODIFIERS = @im=ibus
++# environment
++GJS_DEBUG_TOPICS = JS ERROR;JS LOG
++# environment
++SHLVL = 0
++# environment
++MAKELEVEL := 0
++# environment
++IM_CONFIG_CHECK_ENV = 1
++# makefile (from 'Makefile', line 57)
++OBJDUMP = $(TOOLPREFIX)objdump
++# default
++MAKE = $(MAKE_COMMAND)
++# makefile (from 'Makefile', line 118)
++UPROGS = $U/_cat $U/_echo $U/_forktest $U/_grep $U/_init $U/_kill $U/_ln $U/_ls $U/_mkdir $U/_rm $U/_sh $U/_stressfs $U/_usertests $U/_grind $U/_wc $U/_zombie $U/_threads $U/_producer_consumer 
++# environment
++PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
++# default
++MAKEFILES := 
++# environment
++LC_MONETARY = bn_BD
++# automatic
++^F = $(notdir $^)
++# environment
++LC_TIME = bn_BD
++# environment
++INVOCATION_ID = 64b09e3311f544769c6da4bf8ab18e9c
++# environment
++USERNAME = piyal
++# environment
++GNOME_SETUP_DISPLAY = :1
++# environment
++LC_TELEPHONE = bn_BD
++# environment
++LESSCLOSE = /usr/bin/lesspipe %s %s
++# automatic
++?F = $(notdir $?)
++# environment
++XDG_CURRENT_DESKTOP = Unity
++# automatic
+++F = $(notdir $+)
++# environment
++DESKTOP_SESSION = ubuntu
++# environment
++ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
++# 'override' directive
++GNUMAKEFLAGS := 
++# environment
++LOGNAME = piyal
++# environment
++GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
++# makefile
++.DEFAULT_GOAL := kernel/kernel
++# environment
++SYSTEMD_EXEC_PID = 1723
++# makefile (from 'Makefile', line 51)
++QEMU = qemu-system-riscv64
++# environment
++DISPLAY = :0
++# environment
++USER = piyal
++# environment
++GTK_MODULES = gail:atk-bridge
++# default
++MAKE_VERSION := 4.3
++# 'override' directive
++.SHELLSTATUS := 1
++# makefile (from 'Makefile', line 74)
++LDFLAGS = -z max-page-size=4096
++# environment
++MANAGERPID = 1507
++# environment
++LC_MEASUREMENT = bn_BD
++# environment
++GIO_LAUNCHED_DESKTOP_FILE_PID = 10516
++# environment
++_ = /usr/share/code/code
++# environment
++LC_PAPER = bn_BD
++# environment
++XDG_RUNTIME_DIR = /run/user/1000
++# makefile (from 'Makefile', line 68)
++CFLAGS = -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. $(shell $(CC) -fno-stack-protector -E -x c /dev/null >/dev/null 2>&1 && echo -fno-stack-protector) -fno-pie -no-pie
++# environment
++JOURNAL_STREAM = 8:30564
++# makefile (from 'Makefile', line 158)
++CPUS := 3
++# environment
++XDG_SESSION_CLASS = user
++# environment
++VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
++# environment
++HOME = /home/piyal
++# environment
++QT_IM_MODULE = ibus
++# makefile (from 'Makefile', line 39)
++TOOLPREFIX := riscv64-linux-gnu-
++# environment
++ELECTRON_RUN_AS_NODE = 1
++# environment
++VSCODE_IPC_HOOK = /run/user/1000/vscode-fd7179c5-1.80-main.sock
++# environment
++IM_CONFIG_PHASE = 1
++# default
++.RECIPEPREFIX := 
++# automatic
++<F = $(notdir $<)
++# default
++SUFFIXES := 
++# makefile (from 'Makefile', line 55)
++LD = $(TOOLPREFIX)ld
++# default
++.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
++# makefile (from 'Makefile', line 164)
++QEMUOPTS = -machine virt -bios none -kernel $K/kernel -m 128M -smp $(CPUS) -nographic -global virtio-mmio.force-legacy=false -drive file=fs.img,if=none,format=raw,id=x0 -device virtio-blk-device,drive=x0,bus=virtio-mmio-bus.0
++# makefile (from 'Makefile', line 53)
++CC = $(TOOLPREFIX)gcc
++# makefile (from 'Makefile', line 56)
++OBJCOPY = $(TOOLPREFIX)objcopy
++# environment
++XDG_MENU_PREFIX = gnome-
++# environment
++GDMSESSION = ubuntu
++# environment
++LC_IDENTIFICATION = bn_BD
++# variable set hash-table stats:
++# Load=122/1024=12%, Rehash=0, Collisions=3/379=1%
++
++# Pattern-specific Variable Values
++
++# No pattern-specific variable values.
++
++# Directories
++
++# kernel (device 2057, inode 1713397): 100 files, no impossibilities.
++# . (device 2057, inode 1353252): 15 files, no impossibilities.
++# user (device 2057, inode 1713459): 134 files, no impossibilities.
++
++# 249 files, no impossibilities in 3 directories.
++
++# Implicit Rules
++
++_%: %.o user/ulib.o user/usys.o user/printf.o user/umalloc.o
++#  recipe to execute (from 'Makefile', line 93):
++	$(LD) $(LDFLAGS) -T $U/user.ld -o $@ $^
++	$(OBJDUMP) -S $@ > $*.asm
++	$(OBJDUMP) -t $@ | sed '1,/SYMBOL TABLE/d; s/ .* / /; /^$$/d' > $*.sym
++
++# 1 implicit rules, 0 (0.0%) terminal.
++# Files
++
++user/cat.o: user/cat.c kernel/types.h kernel/stat.h user/user.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/wc.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++ 
++
++# Not a target:
++kernel/virtio_disk.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:20.218178668
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++user/grind.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:22.430248045
++#  File has been updated.
++#  Successfully updated.
++
++kernel/proc.o: kernel/proc.c kernel/types.h kernel/param.h kernel/memlayout.h kernel/riscv.h kernel/spinlock.h kernel/proc.h kernel/defs.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++kernel/log.o: kernel/log.c kernel/types.h kernel/riscv.h kernel/defs.h kernel/param.h kernel/spinlock.h kernel/sleeplock.h kernel/fs.h kernel/buf.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/sh.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/proc.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/string.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++kernel/printf.o: kernel/printf.c /usr/lib/gcc-cross/riscv64-linux-gnu/11/include/stdarg.h kernel/types.h kernel/param.h kernel/spinlock.h kernel/sleeplock.h kernel/fs.h kernel/file.h kernel/memlayout.h kernel/riscv.h kernel/defs.h kernel/proc.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/rm.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:21.242210716
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++kernel/trap.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/fcntl.h:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++user/usertests.o: user/usertests.c kernel/param.h kernel/types.h kernel/stat.h user/user.h kernel/fs.h kernel/fcntl.h kernel/syscall.h kernel/memlayout.h kernel/riscv.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/bio.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:19.650160945
++#  File has been updated.
++#  Successfully updated.
++
++user/wc.o: user/wc.c kernel/types.h kernel/stat.h user/user.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/spinlock.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++kernel/uart.o: kernel/uart.c kernel/types.h kernel/param.h kernel/memlayout.h kernel/riscv.h kernel/spinlock.h kernel/proc.h kernel/defs.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/main.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/thread_sem.h:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/grep.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:20.878199306
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++user/_echo:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/cvtest.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:22.778259003
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++user/mkdir.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/virtio.h:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/forktest.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/ln.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:21.050204691
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++user/_kill:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++kernel/sysfile.o: kernel/sysfile.c kernel/types.h kernel/riscv.h kernel/defs.h kernel/param.h kernel/stat.h kernel/spinlock.h kernel/proc.h kernel/fs.h kernel/sleeplock.h kernel/file.h kernel/fcntl.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/exec.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:19.986171415
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++user/usertests.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:22.130238596
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++user/ln.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++.gdbinit.tmpl-riscv:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++kernel/console.o: kernel/console.c /usr/lib/gcc-cross/riscv64-linux-gnu/11/include/stdarg.h kernel/types.h kernel/param.h kernel/spinlock.h kernel/sleeplock.h kernel/fs.h kernel/file.h kernel/memlayout.h kernel/riscv.h kernel/defs.h kernel/proc.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++user/init.o: user/init.c kernel/types.h kernel/stat.h kernel/spinlock.h kernel/sleeplock.h kernel/fs.h kernel/file.h user/user.h kernel/fcntl.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/uart.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++ 
++#  File has not been updated.
++
++# Not a target:
++user/forktest.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:20.798196805
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++kernel/virtio_disk.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/syscall.h:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/_stressfs:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++user/kill.o: user/kill.c kernel/types.h kernel/stat.h user/user.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++user/initcode.o: user/initcode.S kernel/syscall.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++kernel/trap.o: kernel/trap.c kernel/types.h kernel/param.h kernel/memlayout.h kernel/riscv.h kernel/spinlock.h kernel/proc.h kernel/defs.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++user/initcode: user/initcode.S
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++#  recipe to execute (from 'Makefile', line 82):
++	$(CC) $(CFLAGS) -march=rv64g -nostdinc -I. -Ikernel -c $U/initcode.S -o $U/initcode.o
++	$(LD) $(LDFLAGS) -N -e start -Ttext 0 -o $U/initcode.out $U/initcode.o
++	$(OBJCOPY) -S -O binary $U/initcode.out $U/initcode
++	$(OBJDUMP) -S $U/initcode.o > $U/initcode.asm
++
++.PRECIOUS: %.o
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++_init:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++user/usys.S: user/usys.pl
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++#  recipe to execute (from 'Makefile', line 98):
++	perl $U/usys.pl > $U/usys.S
++
++# Not a target:
++user/_grep:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++user/sh.o: user/sh.c kernel/types.h user/user.h kernel/fcntl.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/ls.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:21.126207076
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++Makefile:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:48:24.058569157
++ 
++#  File has been updated.
++#  Successfully updated.
++
++kernel/vm.o: kernel/vm.c kernel/param.h kernel/types.h kernel/memlayout.h kernel/elf.h kernel/riscv.h kernel/defs.h kernel/fs.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/sleeplock.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:19.830166553
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++user/kill.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:20.994202935
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++kernel/log.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:19.798165556
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++user/threads.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:22.654255098
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++kernel/riscv.h:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/exec.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/printf.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:19.078143121
++#  File has been updated.
++#  Successfully updated.
++
++fs.img: mkfs/mkfs README user/_cat user/_echo user/_forktest user/_grep user/_init user/_kill user/_ln user/_ls user/_mkdir user/_rm user/_sh user/_stressfs user/_usertests user/_grind user/_wc user/_zombie user/_threads user/_producer_consumer
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++#  recipe to execute (from 'Makefile', line 139):
++	mkfs/mkfs fs.img README $(UPROGS)
++
++# Not a target:
++kernel/proc.h:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/plic.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/proc.d:
++ 
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:19.434154215
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++user/_grind:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/cat.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++kernel/spinlock.o: kernel/spinlock.c kernel/types.h kernel/param.h kernel/memlayout.h kernel/spinlock.h kernel/riscv.h kernel/proc.h kernel/defs.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++user/ln.o: user/ln.c kernel/types.h kernel/stat.h user/user.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/umalloc.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:20.638191802
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++user/_zombie:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++clean:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++#  recipe to execute (from 'Makefile', line 144):
++	rm -f *.tex *.dvi *.idx *.aux *.log *.ind *.ilg \
++	*/*.o */*.d */*.asm */*.sym \
++	$U/initcode $U/initcode.out $K/kernel fs.img \
++	mkfs/mkfs .gdbinit \
++        $U/usys.S \
++	$(UPROGS)
++
++# Not a target:
++user/_threads:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/log.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/vm.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:19.310150351
++#  File has been updated.
++#  Successfully updated.
++
++kernel/main.o: kernel/main.c kernel/types.h kernel/param.h kernel/memlayout.h kernel/riscv.h kernel/defs.h
++#  Implicit rule search has not been done.
++ 
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/rm.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/uart.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:19.110144118
++#  File has been updated.
++#  Successfully updated.
++
++user/ls.o: user/ls.c kernel/types.h kernel/stat.h user/user.h kernel/fs.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++user/usys.o: user/usys.S user/usys.S kernel/syscall.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++#  recipe to execute (from 'Makefile', line 101):
++	$(CC) $(CFLAGS) -c -o $U/usys.o $U/usys.S
++
++# Not a target:
++kernel/start.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++kernel/fs.o: kernel/fs.c kernel/types.h kernel/riscv.h kernel/defs.h kernel/param.h kernel/stat.h kernel/spinlock.h kernel/proc.h kernel/sleeplock.h kernel/fs.h kernel/buf.h kernel/file.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++mkfs/mkfs: mkfs/mkfs.c kernel/fs.h kernel/param.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++#  recipe to execute (from 'Makefile', line 110):
++	gcc -Werror -Wall -I. -o mkfs/mkfs mkfs/mkfs.c
++
++user/rm.o: user/rm.c kernel/types.h kernel/stat.h user/user.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++kernel/start.o: kernel/start.c kernel/types.h kernel/param.h kernel/memlayout.h kernel/riscv.h kernel/defs.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++kernel/virtio_disk.o: kernel/virtio_disk.c kernel/types.h kernel/riscv.h kernel/defs.h kernel/param.h kernel/memlayout.h kernel/spinlock.h kernel/sleeplock.h kernel/fs.h kernel/buf.h kernel/virtio.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/ls.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/stressfs.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:21.470217871
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++kernel/sysfile.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/string.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:19.210147234
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++user/threads.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/types.h:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/init.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++kernel/plic.o: kernel/plic.c kernel/types.h kernel/param.h kernel/memlayout.h kernel/riscv.h kernel/defs.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++user/echo.o: user/echo.c kernel/types.h kernel/stat.h user/user.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++ 
++# Not a target:
++kernel/pipe.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/sysproc.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:19.610159698
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++kernel/kernel.ld:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++user/printf.o: user/printf.c kernel/types.h kernel/stat.h user/user.h /usr/lib/gcc-cross/riscv64-linux-gnu/11/include/stdarg.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/entry.o:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++kernel/pipe.o: kernel/pipe.c kernel/types.h kernel/riscv.h kernel/defs.h kernel/param.h kernel/spinlock.h kernel/proc.h kernel/fs.h kernel/sleeplock.h kernel/file.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/param.h:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/_ls:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/spinlock.h:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++kernel/kalloc.o: kernel/kalloc.c kernel/types.h kernel/param.h kernel/memlayout.h kernel/spinlock.h kernel/riscv.h kernel/defs.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/usys.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:20.53418855
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++kernel/kalloc.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:19.138144991
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++user/grind.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++user/grind.o: user/grind.c kernel/param.h kernel/types.h kernel/stat.h user/user.h kernel/fs.h kernel/fcntl.h kernel/syscall.h kernel/memlayout.h kernel/riscv.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++ 
++
++# Not a target:
++kernel/bio.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/fs.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:19.746163936
++#  File has been updated.
++#  Successfully updated.
++
++user/cvtest.o: user/cvtest.c kernel/types.h kernel/stat.h user/user.h user/thread_sem.h user/thread_cv.h user/thread_mutex.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/_usertests:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/echo.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:20.738194929
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++/usr/lib/gcc-cross/riscv64-linux-gnu/11/include/stdarg.h:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++kernel/bio.o: kernel/bio.c kernel/types.h kernel/param.h kernel/spinlock.h kernel/sleeplock.h kernel/riscv.h kernel/defs.h kernel/fs.h kernel/buf.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++.DEFAULT:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/kalloc.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/trampoline.o:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/cat.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:20.682193178
++#  File has been updated.
++#  Successfully updated.
++
++ 
++user/forktest.o: user/forktest.c kernel/types.h kernel/stat.h user/user.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++all:
++#  Command line target.
++#  Implicit rule search has been done.
++#  File does not exist.
++#  File has not been updated.
++
++# Not a target:
++kernel/file.h:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/vm.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/trap.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:19.530157206
++#  File has been updated.
++#  Successfully updated.
++
++user/stressfs.o: user/stressfs.c kernel/types.h kernel/stat.h user/user.h kernel/fs.h kernel/fcntl.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/init.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:20.934201058
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++user/ulib.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:20.502187549
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++user/umalloc.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/usys.pl:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/zombie.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:22.574252579
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++kernel/pipe.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:19.93016967
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++kernel/fs.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/file.d:
++#  Implicit rule search has been done.
++ 
++#  Last modified 2023-08-27 17:32:19.882168174
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++user/initcode.S:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/zombie.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++user/ulib.o: user/ulib.c kernel/types.h kernel/stat.h kernel/fcntl.h user/user.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/buf.h:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/stressfs.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++kernel/syscall.o: kernel/syscall.c kernel/types.h kernel/param.h kernel/memlayout.h kernel/riscv.h kernel/spinlock.h kernel/proc.h kernel/syscall.h kernel/defs.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/fs.h:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++kernel/exec.o: kernel/exec.c kernel/types.h kernel/param.h kernel/memlayout.h kernel/riscv.h kernel/spinlock.h kernel/proc.h kernel/defs.h kernel/elf.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++user/threads.o: user/threads.c kernel/types.h kernel/stat.h user/user.h user/thread_spinlock.h user/thread_mutex.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++user/mkdir.o: user/mkdir.c kernel/types.h kernel/stat.h user/user.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++kernel/string.o: kernel/string.c kernel/types.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++ 
++user/_cat:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++kernel/sleeplock.o: kernel/sleeplock.c kernel/types.h kernel/riscv.h kernel/defs.h kernel/param.h kernel/memlayout.h kernel/spinlock.h kernel/proc.h kernel/sleeplock.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++mkfs/mkfs.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/spinlock.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:19.170145987
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++user/thread_mutex.h:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++qemu: kernel/kernel fs.img
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++#  recipe to execute (from 'Makefile', line 167):
++	$(QEMU) $(QEMUOPTS)
++
++# Not a target:
++user/_wc:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++%.o:
++#  Precious file (prerequisite of .PRECIOUS).
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/initcode.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:20.242179418
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++kernel/plic.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:20.142176291
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++user/printf.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:20.594190426
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++kernel/kernelvec.o:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++ 
++#  File has not been updated.
++
++# Not a target:
++kernel/stat.h:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/_rm:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/sysfile.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:20.09417479
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++user/_producer_consumer:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/_sh:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/syscall.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:19.570158452
++#  File has been updated.
++#  Successfully updated.
++
++kernel/kernel: kernel/entry.o kernel/start.o kernel/console.o kernel/printf.o kernel/uart.o kernel/kalloc.o kernel/spinlock.o kernel/string.o kernel/main.o kernel/vm.o kernel/proc.o kernel/swtch.o kernel/trampoline.o kernel/trap.o kernel/syscall.o kernel/sysproc.o kernel/bio.o kernel/fs.o kernel/log.o kernel/sleeplock.o kernel/file.o kernel/pipe.o kernel/exec.o kernel/sysfile.o kernel/kernelvec.o kernel/plic.o kernel/virtio_disk.o kernel/kernel.ld user/initcode
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++#  recipe to execute (from 'Makefile', line 77):
++	$(LD) $(LDFLAGS) -T $K/kernel.ld -o $K/kernel $(OBJS) 
++	$(OBJDUMP) -S $K/kernel > $K/kernel.asm
++	$(OBJDUMP) -t $K/kernel | sed '1,/SYMBOL TABLE/d; s/ .* / /; /^$$/d' > $K/kernel.sym
++
++user/umalloc.o: user/umalloc.c kernel/types.h kernel/stat.h user/user.h kernel/param.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++qemu-gdb: kernel/kernel .gdbinit fs.img
++ 
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++#  recipe to execute (from 'Makefile', line 173):
++	@echo "*** Now run 'gdb' in another window." 1>&2
++	$(QEMU) $(QEMUOPTS) -S $(QEMUGDB)
++
++# Not a target:
++kernel/defs.h:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/start.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:18.998140629
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++kernel/elf.h:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/kill.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/echo.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++user/grep.o: user/grep.c kernel/types.h kernel/stat.h user/user.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/syscall.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/printf.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/file.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++ 
++
++# Not a target:
++user/user.h:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/_ln:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/usertests.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/_mkdir:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/printf.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/thread_cv.h:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/sh.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:21.394215485
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++user/ulib.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/_init:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/sleeplock.c:
++#  Implicit rule search has not been done.
++ 
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/mkdir.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:21.186208959
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++kernel/console.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:19.042142
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++kernel/memlayout.h:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++README:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/console.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++user/_forktest: user/forktest.o user/ulib.o user/usys.o user/printf.o user/umalloc.o
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++#  recipe to execute (from 'Makefile', line 104):
++	# forktest has less library code linked in - needs to be small
++	# in order to be able to max out the proc table.
++	$(LD) $(LDFLAGS) -N -e main -Ttext 0 -o $U/_forktest $U/forktest.o $U/ulib.o $U/usys.o
++	$(OBJDUMP) -S $U/_forktest > $U/forktest.asm
++
++# Not a target:
++user/cvtest.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/sleeplock.h:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++tags: kernel/entry.o kernel/start.o kernel/console.o kernel/printf.o kernel/uart.o kernel/kalloc.o kernel/spinlock.o kernel/string.o kernel/main.o kernel/vm.o kernel/proc.o kernel/swtch.o kernel/trampoline.o kernel/trap.o kernel/syscall.o kernel/sysproc.o kernel/bio.o kernel/fs.o kernel/log.o kernel/sleeplock.o kernel/file.o kernel/pipe.o kernel/exec.o kernel/sysfile.o kernel/kernelvec.o kernel/plic.o kernel/virtio_disk.o _init
++#  Implicit rule search has not been done.
++ 
++#  Modification time never checked.
++#  File has not been updated.
++#  recipe to execute (from 'Makefile', line 88):
++	etags *.S *.c
++
++kernel/sysproc.o: kernel/sysproc.c kernel/types.h kernel/riscv.h kernel/defs.h kernel/param.h kernel/memlayout.h kernel/spinlock.h kernel/proc.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/swtch.o:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/grep.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/sysproc.c:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++kernel/main.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:19.230147857
++#  File has been updated.
++#  Successfully updated.
++
++# Not a target:
++user/thread_spinlock.h:
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# Not a target:
++user/wc.d:
++#  Implicit rule search has been done.
++#  Last modified 2023-08-27 17:32:22.514250689
++#  File has been updated.
++#  Successfully updated.
++
++.gdbinit: .gdbinit.tmpl-riscv
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++#  recipe to execute (from 'Makefile', line 170):
++	sed "s/:1234/:$(GDBPORT)/" < $^ > $@
++
++user/zombie.o: user/zombie.c kernel/types.h kernel/stat.h user/user.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++ 
++
++kernel/file.o: kernel/file.c kernel/types.h kernel/riscv.h kernel/defs.h kernel/param.h kernel/fs.h kernel/spinlock.h kernel/sleeplock.h kernel/file.h kernel/stat.h kernel/proc.h
++#  Implicit rule search has not been done.
++#  Modification time never checked.
++#  File has not been updated.
++
++# files hash-table stats:
++# Load=203/1024=20%, Rehash=0, Collisions=72/699=10%
++# VPATH Search Paths
++
++# No 'vpath' search paths.
++
++# No general ('VPATH' variable) search path.
++
++# strcache buffers: 1 (0) / strings = 442 / storage = 4841 B / avg = 10 B
++# current buf: size = 8162 B / used = 4841 B / count = 442 / avg = 10 B
++
++# strcache performance: lookups = 887 / hit rate = 50%
++# hash-table stats:
++# Load=442/8192=5%, Rehash=0, Collisions=24/887=3%
++# Finished Make data base on Sun Aug 27 17:48:41 2023
++
++ 
+diff --git a/Makefile b/Makefile
+index 39a99d7..a822569 100644
+--- a/Makefile
++++ b/Makefile
+@@ -132,6 +132,8 @@ UPROGS=\
+ 	$U/_grind\
+ 	$U/_wc\
+ 	$U/_zombie\
++	$U/_threads\
++	$U/_producer_consumer\
+ 
+ fs.img: mkfs/mkfs README $(UPROGS)
+ 	mkfs/mkfs fs.img README $(UPROGS)
+diff --git a/kernel/defs.h b/kernel/defs.h
+index a3c962b..30cca4c 100644
+--- a/kernel/defs.h
++++ b/kernel/defs.h
+@@ -106,6 +106,11 @@ void            yield(void);
+ int             either_copyout(int user_dst, uint64 dst, void *src, uint64 len);
+ int             either_copyin(void *dst, int user_src, uint64 src, uint64 len);
+ void            procdump(void);
++int             thread_create(uint64 fcn, uint64 arg, uint64 stack);
++int             thread_join(int thread_id);
++void            thread_exit(void);
++int             cv_release_sleep(uint64);
++int             cv_wakeup(int);
+ 
+ // swtch.S
+ void            swtch(struct context*, struct context*);
+@@ -173,6 +178,9 @@ uint64          walkaddr(pagetable_t, uint64);
+ int             copyout(pagetable_t, uint64, char *, uint64);
+ int             copyin(pagetable_t, char *, uint64, uint64);
+ int             copyinstr(pagetable_t, char *, uint64, uint64);
++void            uvm_thread_free(pagetable_t, uint64);
++int             uvm_mirror(pagetable_t, pagetable_t, uint64);
++int             uvm_mirror2(pagetable_t, pagetable_t, uint64, uint64);
+ 
+ // plic.c
+ void            plicinit(void);
+diff --git a/kernel/proc.c b/kernel/proc.c
+index 959b778..d528564 100644
+--- a/kernel/proc.c
++++ b/kernel/proc.c
+@@ -10,6 +10,8 @@ struct cpu cpus[NCPU];
+ 
+ struct proc proc[NPROC];
+ 
++struct spinlock mem_lock[NPROC];
++
+ struct proc *initproc;
+ 
+ int nextpid = 1;
+@@ -48,13 +50,16 @@ void
+ procinit(void)
+ {
+   struct proc *p;
++  int i = 0;
+   
+   initlock(&pid_lock, "nextpid");
+   initlock(&wait_lock, "wait_lock");
+   for(p = proc; p < &proc[NPROC]; p++) {
+       initlock(&p->lock, "proc");
++      initlock(&mem_lock[i], "memlock");
+       p->state = UNUSED;
+       p->kstack = KSTACK((int) (p - proc));
++      i++;
+   }
+ }
+ 
+@@ -110,6 +115,7 @@ static struct proc*
+ allocproc(void)
+ {
+   struct proc *p;
++  int i = 0;
+ 
+   for(p = proc; p < &proc[NPROC]; p++) {
+     acquire(&p->lock);
+@@ -118,12 +124,16 @@ allocproc(void)
+     } else {
+       release(&p->lock);
+     }
++    i++;
+   }
+   return 0;
+ 
+ found:
+   p->pid = allocpid();
+   p->state = USED;
++  p->is_thread = 0;
++  p->mem_id = p->pid;
++  p->memlock = &mem_lock[i];
+ 
+   // Allocate a trapframe page.
+   if((p->trapframe = (struct trapframe *)kalloc()) == 0){
+@@ -158,8 +168,21 @@ freeproc(struct proc *p)
+   if(p->trapframe)
+     kfree((void*)p->trapframe);
+   p->trapframe = 0;
+-  if(p->pagetable)
+-    proc_freepagetable(p->pagetable, p->sz);
++
++  if(p->pagetable){
++    if(p->is_thread == 0){
++      proc_freepagetable(p->pagetable, p->sz);
++    }
++    else{
++      uvmunmap(p->pagetable, TRAMPOLINE, 1, 0);
++      uvmunmap(p->pagetable, TRAPFRAME, 1, 0);
++      // if(p->sz > 0)
++      //   uvmunmap(p->pagetable, 0, PGROUNDUP(p->sz)/PGSIZE, 0);
++      // freewalk(p->pagetable);
++      uvm_thread_free(p->pagetable, p->sz);
++    }
++  }
++
+   p->pagetable = 0;
+   p->sz = 0;
+   p->pid = 0;
+@@ -169,6 +192,7 @@ freeproc(struct proc *p)
+   p->killed = 0;
+   p->xstate = 0;
+   p->state = UNUSED;
++  p->memlock = 0;
+ }
+ 
+ // Create a user page table for a given process, with no user memory,
+@@ -261,7 +285,9 @@ growproc(int n)
+ {
+   uint64 sz;
+   struct proc *p = myproc();
++  struct proc *p1;
+ 
++  acquire(p->memlock);
+   sz = p->sz;
+   if(n > 0){
+     if((sz = uvmalloc(p->pagetable, sz, sz + n, PTE_W)) == 0) {
+@@ -271,6 +297,21 @@ growproc(int n)
+     sz = uvmdealloc(p->pagetable, sz, sz + n);
+   }
+   p->sz = sz;
++
++  for(p1 = proc; p1 < &proc[NPROC]; p1++) {
++    if(p->pid != p1->pid && p1->mem_id == p->mem_id){
++      if(n > 0){
++        uvm_mirror2(p1->pagetable, p->pagetable, p1->sz, p->sz);
++        p1->sz = p->sz;
++      }
++
++      else if(n < 0){
++        uvmunmap(p1->pagetable, PGROUNDUP(p->sz), (PGROUNDUP(p1->sz) - PGROUNDUP(p->sz)) / PGSIZE, 0);
++        p1->sz = p->sz;
++      }
++    }
++  }
++  release(p->memlock);
+   return 0;
+ }
+ 
+@@ -681,3 +722,205 @@ procdump(void)
+     printf("\n");
+   }
+ }
++
++int
++thread_create(uint64 fcn, uint64 arg, uint64 stack)
++{
++  int i, pid;
++  struct proc *np;
++  struct proc *p = myproc();
++
++  // Allocate process.
++  if((np = allocproc()) == 0){
++    return -1;
++  }
++
++  // Copy user memory from parent to child.
++  if(uvm_mirror(p->pagetable, np->pagetable, p->sz) < 0){
++    freeproc(np);
++    release(&np->lock);
++    return -1;
++  }
++  np->sz = p->sz;
++
++  // copy saved user registers.
++  *(np->trapframe) = *(p->trapframe);
++
++  // // Cause fork to return 0 in the child.
++  // np->trapframe->a0 = 0;
++
++  np->trapframe->epc = fcn;
++  np->trapframe->sp = stack + PGSIZE;
++  np->trapframe->a0 = arg;
++  np->trapframe->sp -= np->trapframe->sp % 16;
++  np->is_thread = 1;
++  np->mem_id = p->mem_id;
++  np->memlock = p->memlock;
++
++  // increment reference counts on open file descriptors.
++  for(i = 0; i < NOFILE; i++)
++    if(p->ofile[i])
++      np->ofile[i] = filedup(p->ofile[i]);
++  np->cwd = idup(p->cwd);
++
++  safestrcpy(np->name, p->name, sizeof(p->name));
++
++  pid = np->pid;
++
++  release(&np->lock);
++
++  acquire(&wait_lock);
++  np->parent = p;
++  release(&wait_lock);
++
++  acquire(&np->lock);
++  np->state = RUNNABLE;
++  release(&np->lock);
++
++  return pid;
++}
++
++int
++thread_join(int thread_id)
++{
++  struct proc *pp;
++  int havekids, pid;
++  struct proc *p = myproc();
++
++  acquire(&wait_lock);
++
++  for(;;){
++    // Scan through table looking for exited children.
++    havekids = 0;
++    for(pp = proc; pp < &proc[NPROC]; pp++){
++      if(pp->parent == p){
++        // make sure the child isn't still in exit() or swtch().
++        acquire(&pp->lock);
++
++        havekids = 1;
++        if(pp->state == ZOMBIE && pp->pid == thread_id){
++          // Found one.
++          pid = pp->pid;
++          // if(addr != 0 && copyout(p->pagetable, addr, (char *)&pp->xstate,
++          //                         sizeof(pp->xstate)) < 0) {
++          //   release(&pp->lock);
++          //   release(&wait_lock);
++          //   return -1;
++          // }
++          freeproc(pp);
++          release(&pp->lock);
++          release(&wait_lock);
++          return pid;
++        }
++        release(&pp->lock);
++      }
++    }
++
++    // No point waiting if we don't have any children.
++    if(!havekids || killed(p)){
++      release(&wait_lock);
++      return -1;
++    }
++    
++    // Wait for a child to exit.
++    sleep(p, &wait_lock);  //DOC: wait-sleep
++  }
++}
++
++void
++thread_exit()
++{
++  struct proc *p = myproc();
++  p->memlock = 0;
++
++  if(p == initproc)
++    panic("init exiting");
++
++  // Close all open files.
++  for(int fd = 0; fd < NOFILE; fd++){
++    if(p->ofile[fd]){
++      struct file *f = p->ofile[fd];
++      fileclose(f);
++      p->ofile[fd] = 0;
++    }
++  }
++
++  begin_op();
++  iput(p->cwd);
++  end_op();
++  p->cwd = 0;
++
++  acquire(&wait_lock);
++
++  // Give any children to init.
++  reparent(p);
++
++  // Parent might be sleeping in wait().
++  wakeup(p->parent);
++  
++  acquire(&p->lock);
++
++  p->xstate = 0;
++  p->state = ZOMBIE;
++
++  release(&wait_lock);
++
++  // Jump into the scheduler, never to return.
++  sched();
++  panic("zombie exit");
++}
++
++int
++cv_release_sleep(uint64 addr)
++{
++  struct proc *p = myproc();
++  
++  // Must acquire p->lock in order to
++  // change p->state and then call sched.
++  // Once we hold p->lock, we can be
++  // guaranteed that we won't miss any wakeup
++  // (wakeup locks p->lock),
++  // so it's okay to release lk.
++
++  acquire(&p->lock);  //DOC: sleeplock1
++
++  // Go to sleep.
++  p->state = SLEEPING;
++
++  uint64 va0, pa0;
++
++  va0 = PGROUNDDOWN(addr);
++  acquire(p->memlock);
++  pa0 = walkaddr(p->pagetable, va0);
++  release(p->memlock);
++  if(pa0 == 0)
++    return -1;
++
++  __sync_synchronize();
++  __sync_lock_release((uint8*)(pa0 + (addr - va0)));
++
++  sched();
++
++  // Reacquire original lock.
++  release(&p->lock);
++  return 0;
++}
++
++int
++cv_wakeup(int thread_id)
++{
++  struct proc *p;
++
++  for(p = proc; p < &proc[NPROC]; p++) {
++    if(p != myproc()){
++      acquire(&p->lock);
++      if(p->state == SLEEPING && p->pid == thread_id) {
++        p->state = RUNNABLE;
++      }
++      release(&p->lock);
++    }
++  }
++
++  return 0;
++}
++
+diff --git a/kernel/proc.h b/kernel/proc.h
+index d021857..16f21c0 100644
+--- a/kernel/proc.h
++++ b/kernel/proc.h
+@@ -104,4 +104,8 @@ struct proc {
+   struct file *ofile[NOFILE];  // Open files
+   struct inode *cwd;           // Current directory
+   char name[16];               // Process name (debugging)
++  struct spinlock* memlock;	    // find places to set and release the locks 
++  int is_thread;               // if it is thread
++  int mem_id;                   // All threads will have the same physical pages with the mothrer, hence the same memory ID
+ };
++
+diff --git a/kernel/syscall.c b/kernel/syscall.c
+index ed65409..dc91ba2 100644
+--- a/kernel/syscall.c
++++ b/kernel/syscall.c
+@@ -101,6 +101,11 @@ extern uint64 sys_unlink(void);
+ extern uint64 sys_link(void);
+ extern uint64 sys_mkdir(void);
+ extern uint64 sys_close(void);
++extern uint64 sys_thread_create(void);
++extern uint64 sys_thread_join(void);
++extern uint64 sys_thread_exit(void);
++extern uint64 sys_cv_release_sleep(void);
++extern uint64 sys_cv_wakeup(void);
+ 
+ // An array mapping syscall numbers from syscall.h
+ // to the function that handles the system call.
+@@ -126,6 +131,11 @@ static uint64 (*syscalls[])(void) = {
+ [SYS_link]    sys_link,
+ [SYS_mkdir]   sys_mkdir,
+ [SYS_close]   sys_close,
++[SYS_thread_create]   sys_thread_create,
++[SYS_thread_join]   sys_thread_join,
++[SYS_thread_exit]   sys_thread_exit,
++[SYS_cv_release_sleep]   sys_cv_release_sleep,
++[SYS_cv_wakeup]   sys_cv_wakeup,
+ };
+ 
+ void
+diff --git a/kernel/syscall.h b/kernel/syscall.h
+index bc5f356..42d2945 100644
+--- a/kernel/syscall.h
++++ b/kernel/syscall.h
+@@ -20,3 +20,8 @@
+ #define SYS_link   19
+ #define SYS_mkdir  20
+ #define SYS_close  21
++#define SYS_thread_create 22
++#define SYS_thread_join 23
++#define SYS_thread_exit 24
++#define SYS_cv_release_sleep 25
++#define SYS_cv_wakeup 26
+diff --git a/kernel/sysproc.c b/kernel/sysproc.c
+index 1de184e..2a71c39 100644
+--- a/kernel/sysproc.c
++++ b/kernel/sysproc.c
+@@ -89,3 +89,46 @@ sys_uptime(void)
+   release(&tickslock);
+   return xticks;
+ }
++
++uint64
++sys_thread_create(void)
++{
++  uint64 fcn;
++  argaddr(0, &fcn);
++  uint64 arg;
++  argaddr(1, &arg);
++  uint64 stack;
++  argaddr(2, &stack);
++  return thread_create(fcn, arg, stack);
++}
++
++uint64
++sys_thread_join(void)
++{
++  int thread_id;
++  argint(0, &thread_id);
++  return thread_join(thread_id);
++}
++
++uint64
++sys_thread_exit(void)
++{
++  thread_exit();
++  return 0;
++}
++
++uint64
++sys_cv_release_sleep(void)
++{
++  uint64 addr;
++  argaddr(0, &addr);
++  return cv_release_sleep(addr);
++}
++
++uint64
++sys_cv_wakeup(void)
++{
++  int thread_id;
++  argint(0, &thread_id);
++  return cv_wakeup(thread_id);
++}
+diff --git a/kernel/vm.c b/kernel/vm.c
+index 9f69783..69dbe09 100644
+--- a/kernel/vm.c
++++ b/kernel/vm.c
+@@ -296,6 +296,14 @@ uvmfree(pagetable_t pagetable, uint64 sz)
+   freewalk(pagetable);
+ }
+ 
++void
++uvm_thread_free(pagetable_t pagetable, uint64 sz)
++{
++  if(sz > 0)
++    uvmunmap(pagetable, 0, PGROUNDUP(sz)/PGSIZE, 0);
++  freewalk(pagetable);
++}
++
+ // Given a parent process's page table, copy
+ // its memory into a child's page table.
+ // Copies both the page table and the
+@@ -437,3 +445,58 @@ copyinstr(pagetable_t pagetable, char *dst, uint64 srcva, uint64 max)
+     return -1;
+   }
+ }
++
++int
++uvm_mirror(pagetable_t old, pagetable_t new, uint64 sz)
++{
++  pte_t *pte;
++  uint64 pa, i;
++  uint flags;
++
++  for(i = 0; i < sz; i += PGSIZE){
++    if((pte = walk(old, i, 0)) == 0)
++      panic("uvmcopy: pte should exist");
++    if((*pte & PTE_V) == 0)
++      panic("uvmcopy: page not present");
++    pa = PTE2PA(*pte);
++    flags = PTE_FLAGS(*pte);
++    if(mappages(new, i, PGSIZE, (uint64)pa, flags) != 0){
++      // kfree(mem);
++      goto err;
++    }
++  }
++  return 0;
++
++ err:
++  uvmunmap(new, 0, i / PGSIZE, 1);
++  return -1;
++}
++
++int
++uvm_mirror2(pagetable_t old, pagetable_t new, uint64 oldsz, uint64 newsz)
++{
++  pte_t *pte;
++  uint64 pa, i;
++  uint flags;
++
++  oldsz = PGROUNDUP(oldsz);
++  newsz = PGROUNDUP(newsz);
++
++  for(i = oldsz; i < newsz; i += PGSIZE){
++    if((pte = walk(old, i, 0)) == 0)
++      panic("uvmcopy: pte should exist");
++    if((*pte & PTE_V) == 0)
++      panic("uvmcopy: page not present");
++    pa = PTE2PA(*pte);
++    flags = PTE_FLAGS(*pte);
++    if(mappages(new, i, PGSIZE, (uint64)pa, flags) != 0){
++      // kfree(mem);
++      goto err;
++    }
++  }
++  return 0;
++
++ err:
++  uvmunmap(new, 0, i / PGSIZE, 1);
++  return -1;
++}
+diff --git a/user/producer_consumer.c b/user/producer_consumer.c
+new file mode 100644
+index 0000000..608a7c4
+--- /dev/null
++++ b/user/producer_consumer.c
+@@ -0,0 +1,95 @@
++#include "kernel/types.h"
++#include "kernel/stat.h"
++#include "user/user.h"
++#include "user/thread_sem.h"
++
++struct queue q;
++struct thread_mutex mtx_lock;
++struct thread_sem empty;
++struct thread_sem full;
++struct thread_mutex print_lock;
++
++void init_semaphore()
++{
++    thread_mutex_init(&mtx_lock);
++    thread_mutex_init(&print_lock);
++    
++    thread_sem_init(&empty, 5);
++    
++    thread_sem_init(&full, 0);
++}
++
++void ProducerFunc(void *arg)
++{
++    thread_mutex_lock(&print_lock);
++    printf("%s\n", (char *)arg);
++    thread_mutex_unlock(&print_lock);
++
++    int i;
++    for (i = 1; i <= 10; i++)
++    {
++        thread_sem_wait(&empty);
++        thread_mutex_lock(&mtx_lock);
++
++        sleep(1);
++        queue_push(&q, i);
++
++        thread_mutex_lock(&print_lock);
++        printf("producer produced item %d\n", i);
++        thread_mutex_unlock(&print_lock);
++
++        thread_mutex_unlock(&mtx_lock);
++        thread_sem_post(&full);
++    }
++    thread_exit();
++}
++
++void ConsumerFunc(void *arg)
++{
++    thread_mutex_lock(&print_lock);
++    printf("%s\n", (char *)arg);
++    thread_mutex_unlock(&print_lock);
++
++    int i;
++    for (i = 1; i <= 10; i++)
++    {
++        thread_sem_wait(&full);
++        thread_mutex_lock(&mtx_lock);
++
++        sleep(1);
++        int item = queue_front(&q);
++        queue_pop(&q);
++
++        thread_mutex_lock(&print_lock);
++        printf("consumer consumed item %d\n", item);
++        thread_mutex_unlock(&print_lock);
++
++        thread_mutex_unlock(&mtx_lock);
++        thread_sem_post(&empty);
++    }
++    thread_exit();
++}
++
++int main(void)
++{
++
++    queue_init(&q);
++    init_semaphore();
++
++    char *message1 = "i am producer";
++    char *message2 = "i am consumer";
++
++    void *s1, *s2;
++    int thread1, thread2;
++
++    s1 = malloc(4096);
++    s2 = malloc(4096);
++
++    thread1 = thread_create(ProducerFunc, (void *)message1, s1);
++    thread2 = thread_create(ConsumerFunc, (void *)message2, s2);
++
++    thread_join(thread1);
++    thread_join(thread2);
++
++    exit(0);
++}
+\ No newline at end of file
+diff --git a/user/thread_cv.h b/user/thread_cv.h
+new file mode 100644
+index 0000000..cb72537
+--- /dev/null
++++ b/user/thread_cv.h
+@@ -0,0 +1,87 @@
++#include "kernel/types.h"
++#include "user/user.h"
++#include "user/thread_mutex.h"
++
++struct queue{
++	int arr[16];
++	int front;
++	int rear;
++	int size;
++};
++
++struct thread_cv{
++    struct queue q;
++    struct thread_mutex q_lock;
++};
++
++void queue_init(struct queue *q){
++    q->front = 0;
++	q->rear = 0;
++	q->size = 0;
++}
++
++void queue_push(struct queue *q, int x){
++    q->arr[q->rear] = x;
++	q->rear = (q->rear + 1) % 16;
++	q->size++;
++}
++
++int queue_front(struct queue *q){
++    if(q->size==0)
++		return -1;
++	return q->arr[q->front];
++}
++
++void queue_pop(struct queue *q){
++    if(q->size > 0){
++        q->front = (q->front + 1) % 16;
++	    q->size--;
++    }    
++}
++
++void thread_cv_init(struct thread_cv *cv){
++    queue_init(&cv->q);
++    thread_mutex_init(&cv->q_lock);
++}
++
++void thread_cv_wait(struct thread_cv *cv, struct thread_mutex *mx){
++    thread_mutex_lock(&cv->q_lock);
++    queue_push(&cv->q, getpid());
++    thread_mutex_unlock(&cv->q_lock);
++
++    cv_release_sleep(&mx->locked);
++
++    thread_mutex_lock(mx);
++}
++
++void thread_cv_signal(struct thread_cv *cv){
++    int thread_id = 0;
++
++    thread_mutex_lock(&cv->q_lock);
++    thread_id = queue_front(&cv->q);
++  
++    if(thread_id > 0){
++        queue_pop(&cv->q);
++        cv_wakeup(thread_id);
++    }
++
++    thread_mutex_unlock(&cv->q_lock);
++}
++
++void thread_cv_broadcast(struct thread_cv *cv){
++    int thread_id = 0;
++
++    thread_mutex_lock(&cv->q_lock);
++
++    while(1){
++        thread_id = queue_front(&cv->q);
++  
++        if(thread_id <= 0){
++            break;
++        }
++        queue_pop(&cv->q);
++        cv_wakeup(thread_id);
++    }
++
++    thread_mutex_unlock(&cv->q_lock);
++}
+\ No newline at end of file
+diff --git a/user/thread_mutex.h b/user/thread_mutex.h
+new file mode 100644
+index 0000000..943f952
+--- /dev/null
++++ b/user/thread_mutex.h
+@@ -0,0 +1,55 @@
++// Mutual exclusion spin locks.
++
++#include "kernel/types.h"
++#include "user/user.h"
++
++struct thread_mutex {
++  uint8 locked;       // Is the lock held?
++};
++
++void
++thread_mutex_init(struct thread_mutex *lk)
++{
++  lk->locked = 0;
++}
++
++// Acquire the lock.
++// Loops (spins) until the lock is acquired.
++void
++thread_mutex_lock(struct thread_mutex *lk)
++{
++  // On RISC-V, sync_lock_test_and_set turns into an atomic swap:
++  //   a5 = 1
++  //   s1 = &lk->locked
++  //   amoswap.w.aq a5, a5, (s1)
++  while(__sync_lock_test_and_set(&lk->locked, 1) != 0){
++    sleep(1);
++  }
++  // Tell the C compiler and the processor to not move loads or stores
++  // past this point, to ensure that the critical section's memory
++  // references happen strictly after the lock is acquired.
++  // On RISC-V, this emits a fence instruction.
++  __sync_synchronize();
++}
++
++// Release the lock.
++void
++thread_mutex_unlock(struct thread_mutex *lk)
++{
++  // Tell the C compiler and the CPU to not move loads or stores
++  // past this point, to ensure that all the stores in the critical
++  // section are visible to other CPUs before the lock is released,
++  // and that loads in the critical section occur strictly before
++  // the lock is released.
++  // On RISC-V, this emits a fence instruction.
++  __sync_synchronize();
++
++  // Release the lock, equivalent to lk->locked = 0.
++  // This code doesn't use a C assignment, since the C standard
++  // implies that an assignment might be implemented with
++  // multiple store instructions.
++  // On RISC-V, sync_lock_release turns into an atomic swap:
++  //   s1 = &lk->locked
++  //   amoswap.w zero, zero, (s1)
++  __sync_lock_release(&lk->locked);
++}
+diff --git a/user/thread_sem.h b/user/thread_sem.h
+new file mode 100644
+index 0000000..bd99ba1
+--- /dev/null
++++ b/user/thread_sem.h
+@@ -0,0 +1,33 @@
++#include "kernel/types.h"
++#include "user/user.h"
++#include "user/thread_cv.h"
++
++struct thread_sem{
++    int value;
++    struct thread_cv cv;
++    struct thread_mutex mutex;
++};
++
++void thread_sem_init(struct thread_sem *sem, int value){
++    sem->value = value;
++    thread_cv_init(&sem->cv);
++    thread_mutex_init(&sem->mutex);
++}
++
++void thread_sem_wait(struct thread_sem *sem){
++    thread_mutex_lock(&sem->mutex);
++    while(sem->value <= 0){
++        thread_cv_wait(&sem->cv, &sem->mutex);
++    }
++    sem->value--;
++    thread_mutex_unlock(&sem->mutex);
++}
++
++void thread_sem_post(struct thread_sem *sem){
++    thread_mutex_lock(&sem->mutex);
++    
++    sem->value++;
++    thread_cv_signal(&sem->cv);
++
++    thread_mutex_unlock(&sem->mutex);
++}
+\ No newline at end of file
+diff --git a/user/thread_spinlock.h b/user/thread_spinlock.h
+new file mode 100644
+index 0000000..e60d41d
+--- /dev/null
++++ b/user/thread_spinlock.h
+@@ -0,0 +1,54 @@
++// Mutual exclusion spin locks.
++
++#include "kernel/types.h"
++
++struct thread_spinlock {
++  uint8 locked;       // Is the lock held?
++};
++
++void
++thread_spin_init(struct thread_spinlock *lk)
++{
++  lk->locked = 0;
++}
++
++// Acquire the lock.
++// Loops (spins) until the lock is acquired.
++void
++thread_spin_lock(struct thread_spinlock *lk)
++{
++  // On RISC-V, sync_lock_test_and_set turns into an atomic swap:
++  //   a5 = 1
++  //   s1 = &lk->locked
++  //   amoswap.w.aq a5, a5, (s1)
++  while(__sync_lock_test_and_set(&lk->locked, 1) != 0)
++    ;
++
++  // Tell the C compiler and the processor to not move loads or stores
++  // past this point, to ensure that the critical section's memory
++  // references happen strictly after the lock is acquired.
++  // On RISC-V, this emits a fence instruction.
++  __sync_synchronize();
++}
++
++// Release the lock.
++void
++thread_spin_unlock(struct thread_spinlock *lk)
++{
++  // Tell the C compiler and the CPU to not move loads or stores
++  // past this point, to ensure that all the stores in the critical
++  // section are visible to other CPUs before the lock is released,
++  // and that loads in the critical section occur strictly before
++  // the lock is released.
++  // On RISC-V, this emits a fence instruction.
++  __sync_synchronize();
++
++  // Release the lock, equivalent to lk->locked = 0.
++  // This code doesn't use a C assignment, since the C standard
++  // implies that an assignment might be implemented with
++  // multiple store instructions.
++  // On RISC-V, sync_lock_release turns into an atomic swap:
++  //   s1 = &lk->locked
++  //   amoswap.w zero, zero, (s1)
++  __sync_lock_release(&lk->locked);
++}
+diff --git a/user/threads.c b/user/threads.c
+new file mode 100644
+index 0000000..89033ab
+--- /dev/null
++++ b/user/threads.c
+@@ -0,0 +1,80 @@
++#include "kernel/types.h"
++#include "kernel/stat.h"
++#include "user/user.h"
++#include "user/thread_spinlock.h"
++#include "user/thread_mutex.h"
++
++struct balance {
++    char name[32];
++    int amount;
++};
++
++volatile int total_balance = 0;
++struct thread_spinlock lock;
++struct thread_mutex mtx_lock, print_lock;
++
++volatile unsigned int delay (unsigned int d) {
++   unsigned int i; 
++   for (i = 0; i < d; i++) {
++       __asm volatile( "nop" ::: );
++   }
++
++   return i;   
++}
++
++void do_work(void *arg){
++    int i; 
++    int old;
++   
++    struct balance *b = (struct balance*) arg; 
++
++    thread_mutex_lock(&print_lock);
++    printf( "Starting do_work: s:%s\n", b->name);
++    thread_mutex_unlock(&print_lock);
++
++    for (i = 0; i < b->amount; i++) { 
++        // lock and mlock will be implemented by you.
++        //  thread_spin_lock(&lock);
++         thread_mutex_lock(&mtx_lock);
++         old = total_balance;
++         delay(100000);
++	    // if(old != total_balance)  
++        //     printf("we will miss an update. old: %d total_balance: %d\n", old, total_balance);
++         total_balance = old + 1;
++        //  thread_spin_unlock(&lock);
++         thread_mutex_unlock(&mtx_lock);
++
++    }
++  
++    thread_mutex_lock(&print_lock);
++    printf( "Done s:%x\n", b->name);
++    thread_mutex_unlock(&print_lock);
++
++    thread_exit();
++    return;
++}
++
++int main(int argc, char *argv[]) {
++
++  struct balance b1 = {"b1", 3200};
++  struct balance b2 = {"b2", 2800};
++ 
++  void *s1, *s2;
++  int thread1, thread2, r1, r2;
++  thread_spin_init(&lock);
++  thread_mutex_init(&mtx_lock);
++
++  s1 = malloc(4096); // 4096 is the PGSIZE defined in kernel/riscv.h
++  s2 = malloc(4096);
++
++  thread1 = thread_create(do_work, (void*)&b1, s1);
++  thread2 = thread_create(do_work, (void*)&b2, s2); 
++
++  r1 = thread_join(thread1);
++  r2 = thread_join(thread2);
++  
++  printf("Threads finished: (%d):%d, (%d):%d, shared balance:%d\n", 
++      thread1, r1, thread2, r2, total_balance);
++
++  exit(0);
++}
+\ No newline at end of file
+diff --git a/user/user.h b/user/user.h
+index 4d398d5..46d62ed 100644
+--- a/user/user.h
++++ b/user/user.h
+@@ -22,6 +22,12 @@ int getpid(void);
+ char* sbrk(int);
+ int sleep(int);
+ int uptime(void);
++int thread_create(void(*fcn)(void*), void *arg, void* stack);
++int thread_join(int thread_id);
++void thread_exit(void);
++int cv_release_sleep(uint8*);
++int cv_wakeup(int);
++
+ 
+ // ulib.c
+ int stat(const char*, struct stat*);
+diff --git a/user/usys.pl b/user/usys.pl
+index 01e426e..3c07ec8 100755
+--- a/user/usys.pl
++++ b/user/usys.pl
+@@ -36,3 +36,8 @@ entry("getpid");
+ entry("sbrk");
+ entry("sleep");
+ entry("uptime");
++entry("thread_create");
++entry("thread_join");
++entry("thread_exit");
++entry("cv_release_sleep");
++entry("cv_wakeup");
